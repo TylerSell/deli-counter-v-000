@@ -1,7 +1,11 @@
 katz_deli = []
 
-def line 
-  
+def line(katz_deli)
+  if katz_deli == nil 
+    puts "The line is empty."
+  else 
+    puts katz_deli
+  end
 end
 
 def take_a_number(katz_deli)

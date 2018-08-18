@@ -12,7 +12,7 @@ def line(katz_deli)
   end  
 end
 
-def take_a_number(katz_deli)
+def take_a_number(katz_deli, )
   counter = 1 
   katz_deli.each do |name|
     puts "Welcome #{name}. You are number #{counter} in line."

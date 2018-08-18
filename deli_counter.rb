@@ -15,7 +15,7 @@ end
 def take_a_number(katz_deli, name)
   katz_deli.push(name)
   position = katz_deli.index(name)
-  
+  puts "Welcome, #{name}. You are number #{"
 end
 
 def now_serving(katz_deli)

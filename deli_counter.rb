@@ -14,7 +14,8 @@ end
 
 def take_a_number(katz_deli, name)
   katz_deli.push(name)
-  position = 
+  position = katz_deli.index(name)
+  
 end
 
 def now_serving(katz_deli)
